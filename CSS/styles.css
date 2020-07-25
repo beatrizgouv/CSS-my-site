@@ -2,6 +2,7 @@ body{
     margin: 0px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1{
@@ -28,6 +29,7 @@ p{
     color: #3F3F44;
     
     
+    
 }
 
 .mid-container img{
@@ -51,6 +53,7 @@ a {
 }
 .top-container h2{
     font-weight: normal;
+    line-height: 2;
 }
 
 .profile img{
@@ -77,4 +80,25 @@ a {
    position: absolute;
    left: 300px;
    bottom: 300px;
+}
+
+.skill-row{
+    width: 50%; 
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row img{
+    width: 25%;
+    height: 25%;
+}
+.cooking-img{
+    float: left;
+    margin-right: 30px;
+}
+
+.home-img{
+    float: right;
+    margin-left: 30px;  
+
 }
